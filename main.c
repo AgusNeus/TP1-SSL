@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <stdio.h>                  // Agustin Tiago Neustadt
 #include <ctype.h>
 int main ()
 {
 int c;
-while(EOF!= (c=getchar()))
+while(EOF!= (c=getchar()))                  
 {
     if(isalpha(c)){
         if(isupper(c)){
